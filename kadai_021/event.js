@@ -3,6 +3,7 @@ const text = document.getElementById('text');
 
 btn.addEventListener('click',()=>{
     setTimeout(()=>{
+   
     const childList = document.createElement('li');
 
     childList.textContent = 'ボタンをクリックしました';
@@ -10,6 +11,7 @@ btn.addEventListener('click',()=>{
     text.appendChild(childList);
 
     text.textContent = 'ボタンをクリックしました';
+    
 },2000);    
 
 });
